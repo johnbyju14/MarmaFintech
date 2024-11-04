@@ -47,7 +47,7 @@ const Home = () => {
           height: '100%',
           overflow: 'hidden',
           filter: 'brightness(0.5)',
-          width: "100vw",
+          width: "100%",
 
         }}
         scene="/energy_cube.spline"
