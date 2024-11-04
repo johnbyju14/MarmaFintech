@@ -1,11 +1,12 @@
 import React from 'react';
 import { ArrowUpRight, DotIcon } from 'lucide-react';
 import './Explore.css'
+import event from '../../../public/images/event.png'
 
 const EventCard = ({ event }) => (
   <div className="p-4 rounded-lg flex flex-row min-h-30 sm:flex-row items-stretch space-y-0 sm:space-y-0 sm:space-x-5 border border-gray-500">
     <div className="w-16 pt-4 h-auto rounded-lg flex-shrink-0 event-images" style={{height:'20px',width:'40px'}}>
-      <img src="/public/images/event.png" alt="" />
+      <img src={event} alt="" />
     </div>
     <div className="flex flex-col text-start sm:inline-flex pl-3">
       <h3 className="text-white  sm:font-semibold sm:text-xl event-title-class">{event.title}</h3>
