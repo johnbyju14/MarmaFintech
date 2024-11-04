@@ -48,7 +48,7 @@ export default function ExploreLatest() {
       title: 'Scaling Ethereum - Mastering Layer 2 Technologies',
       description: 'In this workshop, we will explore the challenges and solutions related to scaling Ethereum, one of the most critical aspects of blockchain development today.',
       date: "OCTOBER 17TH 2024",
-      image: '',
+      image:{event},
       alt: 'the event image name',
     },
     {
@@ -56,7 +56,7 @@ export default function ExploreLatest() {
       title: 'Scaling Ethereum - Mastering Layer 2 Technologies',
       description: 'In this workshop, we will explore the challenges and solutions related to scaling Ethereum, one of the most critical aspects of blockchain development today.',
       date: 'OCTOBER 17TH 2024',
-      image: '',
+      image:{event},
       alt: 'the event image name',
     },
   ];
