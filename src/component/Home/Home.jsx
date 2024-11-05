@@ -40,15 +40,13 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="home-section min-h-screen">
+    <section className="home-section min-h-screen" style{{width:'width: '-webkit-fill-available;'}}>
       {/* <Menu/> */}
       <Spline
         style={{
           height: '100%',
           overflow: 'hidden',
           filter: 'brightness(0.5)',
-          width: "100%",
-
         }}
         scene="/energy_cube.spline"
       />
