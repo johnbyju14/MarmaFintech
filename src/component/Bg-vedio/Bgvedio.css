@@ -25,6 +25,12 @@
 
 }
 
+.linear-bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .content {
  -webkit-backdrop-filter : blur(42px);
