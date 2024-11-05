@@ -40,7 +40,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="home-section min-h-screen" style{{width:'width: '-webkit-fill-available;'}}>
+    <section className="home-section min-h-screen" style={{ width: '-webkit-fill-available' }}>
       {/* <Menu/> */}
       <Spline
         style={{
